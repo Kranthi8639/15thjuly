@@ -1,0 +1,6 @@
+class Solution:
+    def singleNumber(self, nums: List[int]):
+        rem=o 
+        for t in nums:
+            rem=rem^t
+        return rem
